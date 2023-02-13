@@ -78,7 +78,7 @@ li{
     display: flex;
     position:absolute;
     flex-direction: column;
-
+    
     align-items: flex-start;
     padding: 16px;
     gap: 16px;
@@ -110,6 +110,7 @@ li{
     font-size: 18px;
     line-height: 24px;
     border-radius: 4px;
+    bottom: 2%;
 }
 
 .form-input-control{
@@ -141,6 +142,7 @@ li{
 .text-form-h{
     position: relative;
     left: 2%;
+    margin-top: 0%;
 }
 
 .text-form{
