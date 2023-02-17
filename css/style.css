@@ -1,33 +1,42 @@
 body{
 
     background: #F4F6FC;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
-    padding-top: 0px;
-    margin-top: 0px; 
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
 }
 
 
-header {
-    position: absolute;
-    display: block;
-    width: 100%;
+.header {
+    display: flex;
     height: 44px;
-    left: 0px;
     background: #B73C58;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-li{
+
+.nav-site{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.li-style{
     list-style: none;
 }
+
 .nav-list{
     display: flex;
     align-items: center;
 }
+
 .nav-item{
     position: relative;
     padding: 0px 10px;
-    bottom: 5px;
 }
 
 .search-input{
@@ -62,15 +71,11 @@ li{
 
 
 .user-panels{
-    position: relative;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    bottom: 5vh;
 }
 
 .user-item{
-    position: relative;
     padding-right: 25px;   
 }
 
