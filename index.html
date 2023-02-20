@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>To Do list</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav-site">
             <ul class="nav-list li-style">
+
                 <li class="nav-item">
                     <a href="#">
                         <svg fill="white" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -18,6 +21,7 @@
                         </svg> 
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,14 +29,17 @@
                         </svg> 
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <form action="">
                         <input class="search-input" type="text" placeholder="Поиск" name="search">
                         <button class="search-button" type="submit"></button>
                     </form>
                 </li>
+
             </ul>
             <ul class="user-control nav-list li-style">
+
                 <li class="nav-item">
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,6 +47,7 @@
                         </svg>  
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,6 +55,7 @@
                         </svg> 
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 16 16" fill="#FDFDFD" xmlns="http://www.w3.org/2000/svg">
@@ -59,9 +68,9 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                    
                     </a>
                 </li>
+
             </ul>
         </nav>
 
@@ -69,7 +78,7 @@
     <main class="main">
         <div class="form-container">
             <form class="form-control" action="">
-                <h1 class="text-form-h">Войти</h1>
+                <legend class="form-legend-control">Войти</legend>
                 <a href="#" class="form-login-other"><picture><img src="images/Google - jpeg.svg" alt="Google"></picture> Войти через Google</a>
                 <a href="#" class="form-login-other"><picture><img src="images/VK - jpeg.svg" alt="VK"></picture>Войти через VK</a>
                 <label for="E-mail" class="label-control">E-mail</label>
@@ -81,7 +90,7 @@
                 <span class="text-form-polits">Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с <a href="#">Условиями использования</a> и <a href="#">Политикой конфиденциальности</a>.</span>
             </form>
         </div>
-
+        
         <p class="no-acc-text">Еще нет аккаунта? <a href="#">Зарегистроваться</a></p>
     </main>
 </body>

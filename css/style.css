@@ -1,3 +1,6 @@
+
+
+
 body{
 
     background: #F4F6FC;
@@ -56,7 +59,7 @@ body{
     width: 24px;
     position: absolute;
     top: 2px;
-    right: 185px;
+    right: 192px;
     border: none;
     background: no-repeat;
     background-image: url("../images/search.svg");
@@ -86,6 +89,7 @@ body{
     display: flex;
     width: 350px;
     height: 40px;
+    top: 3px;
     padding: 8px 32px;
     border: 1px solid #828282;
     align-items: center;
@@ -118,6 +122,7 @@ body{
     border-radius: 4px;
     justify-content: flex-end;
     left: 2%;
+    top: 10px;
     
 }
 
@@ -127,10 +132,13 @@ body{
     font-size: 18px;    
     line-height: 24px;
     left: 2%;
+    top: 15px;
 }
 
-.text-form-h{
+.form-legend-control{
     position: relative;
+    font-size: 32px;
+    font-weight: 600;
     left: 2%;
     margin-top: 0%;
 }
@@ -148,6 +156,7 @@ body{
     text-align: center;
     letter-spacing: 0.1px;
     color: #B73C58;
+    top: 10px;
 }
 
 .form-button{
@@ -167,6 +176,7 @@ body{
     justify-content: center;
     align-items: center;
     color: #FDFDFD;
+    top: 15px;
 }
 
 .text-form-polits{
@@ -177,6 +187,7 @@ body{
     width: 300px;
     letter-spacing: 0.25px;
     left: 2%;
+    top: 30px;
 }
 
 .no-acc-text{
@@ -189,12 +200,108 @@ body{
 
 .to-do-list{
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-}
+    align-items: center;
+    padding-top: 20px;
 
+}
+.to-do-list-filter-items{
+    width: 668px;  
+}
+.to-do-list-h{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+}
 .filter-list{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    padding: 0%;
+}
+.filter-item{
+    display: flex;
+    width: 141px;
+    height: 36px;
+    background-color:#FDFDFD;
+    border: 1px solid #EFF1F3;
+    border-radius: 4px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-decor{
+    text-decoration: none;
+}
+
+.priority-1{
+    color: #B73C58;
+}
+
+.priority-2{
+    color: #F2994A;
+}
+
+.priority-3{
+    color: #2A5480;
+}
+
+.regular{
+    color: #828282;
+}
+
+
+.overdue-to-do{
+    width: 668px;
+    height: 378px;
+}
+
+.today-to-do{
+    width: 668px;
+    height: 378px;
+}
+
+.checkbox-item{
+    width: 24px;
+    height: 24px;
+    background-color: #B73C58;
+}
+
+.list-items{
+    padding: 0px;
+}
+.list-item{
+    display: flex;
+    width: 668px;
+    height: 56px;
+    background-color: #FDFDFD;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.list-item:hover{
+    background-color: #EFF1F3;
+}
+
+.to-do-h2{
+    font-weight: 600;
+    font-size: 22px;
+}
+.item-name{
+    width: 502px;
+    margin-left: 10px;
+}
+.buttons-item{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-left: 30px;
+}
+.button-item{
+    margin-left: 20px;
 }
