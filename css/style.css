@@ -31,6 +31,7 @@ body{
 .nav-list{
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 
 .nav-item{
@@ -55,7 +56,11 @@ body{
 }
 
 .search-input::placeholder{
+    padding-left: 5px;
     padding-top: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .search-button{
@@ -103,7 +108,7 @@ body{
     left: 2%;
     position: relative;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     border-radius: 4px;
     bottom: 2%;
@@ -130,13 +135,16 @@ body{
     justify-content: flex-end;
     left: 2%;
     top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     
 }
 
 .label-control{
     position: relative;
     font-weight: 600;
-    font-size: 18px;    
+    font-size: 16px;
     line-height: 24px;
     left: 2%;
     top: 15px;
@@ -144,8 +152,9 @@ body{
 
 .form-legend-control{
     position: relative;
-    font-size: 32px;
     font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
     left: 2%;
     margin-top: 0%;
 }
@@ -156,7 +165,7 @@ body{
     text-decoration: none;
     color: black;
     font-weight: 500;
-    font-size: 14px;;
+    font-size: 14px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -334,6 +343,7 @@ body{
         border: none;
         height: 32px;
         display: none;
+        
     
     }
     
@@ -349,12 +359,6 @@ body{
         border-radius: 4px;
         padding: 0px;
     }
-
-    /* .nav-item{
-        position: relative;
-        padding: 0px 15px 0px 0px;
-    } */
-
     .nav-item svg[width]{
         width: 24px;
         height: 24px;
@@ -373,7 +377,7 @@ body{
         align-items: flex-start;
         padding: 16px;
         gap: 16px;
-        width:360px;
+        width:375px;
         height: 568px;
         background-color:#FDFDFD;
         border-radius:4px; 
@@ -381,5 +385,30 @@ body{
     }
     .search-button-color path{
         fill: #FDFDFD;
+    }
+
+    .form-legend-control{
+        position: relative;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+        left: 2%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .form-control{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+        width:375px;
+        height: 568px;
+        background-color:#FDFDFD;
+        border-radius:4px; 
+        padding: 0px;
     }
 }
